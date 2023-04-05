@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+#head1,#head2,#head3{
+    font-family: monospace;
+    color: white;
+}
+
+#myNav{
+    background-color: rgb(34, 32, 33);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6),
+    -2px -2px 10px rgba(0, 0, 0, 0.6) ;
+}
+
+/* .myTextArea{
+    margin: auto;
+    margin-top: 50px;
+    width: 60%;
+    padding: 15px;
+} */
+
+#submitText{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#formDiv{
+    margin: auto;
+    margin-top: 2%;
+    width: 60%;
+    padding: 20px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5),
+    -2px -2px 10px rgba(0, 0, 0, 0.5) ;
+}
+
+#textLabel{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#enterText{
+    width: 100%;
+    margin: 3px -1px;
+    padding: 0;
+}
